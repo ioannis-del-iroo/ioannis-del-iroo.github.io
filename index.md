@@ -2,6 +2,8 @@
 
 You can use the [editor on GitHub](https://github.com/ioannis-del-iroo/ioannis-del-iroo.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
+![Family portrait](images/home_page_photo1.jpg)
+
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
