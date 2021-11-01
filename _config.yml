@@ -4,3 +4,5 @@ plugins:
 markdown: kramdown
 
 title: Αρχείο προς τιμήν των ανώνυμων κ επώνυμων πεσόντων του Μπιζανίου
+
+theme: jekyll-theme-dinky
