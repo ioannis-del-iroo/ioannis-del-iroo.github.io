@@ -1,8 +1,5 @@
 ## Welcome to GitHub Pages
 
-# Test 
-{: .myclass}
-
 You can use the [editor on GitHub](https://github.com/ioannis-del-iroo/ioannis-del-iroo.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
 
