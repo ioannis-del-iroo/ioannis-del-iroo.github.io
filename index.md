@@ -8,8 +8,8 @@
 
 Ο πατέρας Παναγιώτης πρέπει κατά τον πατέρα μου να έπαθε κατάθλιψη και να πέθανε σχεδόν αμέσως μετά τον Θάνατο του Γιάννη, πέφτοντας από το άλογο. Το μόνο πράγμα που υπήρχε από το Γιάννη στην οικογένεια κ είχε η μεγαλύτερη αδελφή του (Ντίνα), ήταν ένα  τετράδιο που έγραφε ποιήματα. Ελπίζω πάντα να το βρώ και να το αντιγράψω. 
 
-![The father](images/home_page_photo2a.jpg)
-![The father](images/home_page_photo2b.jpg)
+![The father](images/home_page_photo2.jpg)
+
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
