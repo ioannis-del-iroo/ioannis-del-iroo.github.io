@@ -24,7 +24,6 @@
 Με υπόδειξη και προτροπή και βοήθεια δυο φίλων μου έψαξα συστηματικά για την περίοδο αρχές Δεκεμβρίου 1912, μια που η κυρίως [μάχη στο Μπιζάνι](https://el.wikipedia.org/wiki/%CE%9C%CE%AC%CF%87%CE%B7_%CF%84%CE%BF%CF%85_%CE%9C%CF%80%CE%B9%CE%B6%CE%B1%CE%BD%CE%AF%CE%BF%CF%85) ξεκινάει 9 Δεκεμβρίου μέχρι και τέλος Μαρτίου 1913. Κατέβασα 85 αρχεία και έψαξα εκατοντάδες ονόματα. Από κάποια σύμπτωση, τον κατάλογο τραυματιών – πεσόντων που με ενδιέφερε τον βρήκα τελευταίο και το όνομα του θείου μου Ιωάννη είναι το πρό–τελευταίο. Ο πίνακας αρχίζει έτσι : 
 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
