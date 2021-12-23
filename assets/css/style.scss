@@ -3,6 +3,7 @@
 
 @import "{{ site.theme }}";
 
-h1.title {
-  font-size: 40px;
+h1.header, p.header {
+    color: #000;
+    padding-left: 50px;
 }

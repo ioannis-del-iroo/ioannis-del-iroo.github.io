@@ -4,4 +4,10 @@ markdown: kramdown
 
 title: ΜΠΙΖΑΝΙ, ψηφιακό μνημείο πεσόντων. Στη Μνήμη Ιωάννη Παναγιώτου Δεληγιάννη
 
-
+nav_menu:
+    - link: /index
+      title: Home
+    - link: /ioannis
+      title: Ιωάννης Δεληγιάννης
+    - link: /archive
+      title: Αρχείο

@@ -41,9 +41,16 @@
           </ul>
         {% endif %}
       </header>
-
+      
       <section>
-        {{ content }}
+          {{ content }}
+      
+          {% for sitepage in site.pages %}
+            {% if sitepage.url contains 'Efimerides' %}
+              {% assign dir_elements = sitepage.url | url_decode | split: '/' %}
+              <li><a href="{{ sitepage.url }}">{{ dir_elements.last }}</a></li>
+            {% endif %}
+          {% endfor %}
       </section>
 
       <footer>

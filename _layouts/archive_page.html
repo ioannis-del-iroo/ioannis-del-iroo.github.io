@@ -43,7 +43,40 @@
       </header>
 
       <section>
-        {{ content }}
+      
+      {% assign dir_elements = page.dir | url_decode | split: '/' %}
+      
+      <h2>{{ dir_elements.last }}</h2>
+      
+      {{ content }}
+      
+      {% assign png_array = "" | split: ',' %}
+      {% assign pdf_array = "" | split: ',' %}
+      
+      {% for static_file in site.static_files %}
+        {% assign encoded_path = static_file.path | uri_escape %}
+        {% if encoded_path contains page.dir %}
+          {% assign extension = static_file.path | slice: -4,4 %}
+          {% if extension contains '.png' %}
+            {% assign png_array = png_array | push: static_file.path %}
+          {% endif %}
+          {% if extension contains '.pdf' %}
+            {% assign pdf_array = pdf_array | push: static_file.path %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      
+      <ul>
+      {% for pdf in pdf_array %}
+        {% assign file_items = pdf | split: '/' %}
+        <li><a href="{{ pdf }}">{{ file_items.last }}</a></li>
+      {% endfor %}
+      </ul>
+      {% for png in png_array %}
+        <img src="{{ png }}" class="archive_image"/>
+      {% endfor %}
+    
+
       </section>
 
       <footer>
